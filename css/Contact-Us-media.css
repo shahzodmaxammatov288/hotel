@@ -1,0 +1,174 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    header .Menu_Link{
+        margin-left: 10px;
+    }
+    header .Contact-Us-TitleBx {
+        height: 200px;
+    }
+    header h2{
+        font-size: 35px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .My_Content {
+        padding: 50px 0px 70px;
+    }
+    .Content_Title {
+        font-size: 25px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+    footer ul {
+        margin-top: 30px;
+    }
+    /*footer end*/
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    header .Menu_Link{
+        margin-left: 10px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .My_Content {
+        padding: 70px 0px 100px;
+    }
+    .My_Content h4 {
+        max-width: 100%;
+    }
+    /*content end*/
+
+    /*footer begin*/
+
+    /*footer end*/
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    header .Menu_Link{
+        margin-left: 10px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .My_Content {
+        padding: 50px 0px 70px;
+    }
+    .Content_Title {
+        font-size: 25px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+    footer ul {
+        margin-top: 20px;
+        padding-left: 0rem!important;
+    }
+    footer .Rooms_text {
+        max-width: 450px;
+    }
+    /*footer end*/
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    /*header end*/
+
+    /*content begin*/
+
+    /*content end*/
+
+    /*footer begin*/
+    footer .footer_email_text_block{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    /*footer end*/
+}
+/*Extra Large*/
+@media  (min-width: 1200px){
+
+}
+
+/*Qo'shimcha media*/
+
+@media screen and (max-width:320px){
+    /*header begin*/
+    header .Rooms_And_Content_title .header_title_top {
+        font-size: 85px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    header h2 {
+        font-size: 30px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+
+    /*footer end*/
+}
+
+@media screen and (max-width:280px) {
+    /*header begin*/
+    header .col-12:first-child {
+        padding: 0px !important;
+    }
+    header h2 {
+        font-size: 25px;
+    }
+    /*header end*/
+    /*content begin*/
+    .Content_Title {
+        font-size: 20px;
+    }
+    .My_Content h4 {
+        font-size: 17px;
+    }
+    .My_Content p {
+        font-size: 14px;
+    }
+    .My_Content ul li a {
+        font-size: 14px;
+    }
+    .My_Content button {
+        width: 120px;
+        height: 50px;
+    }
+    /*content end*/
+    /*footer begin*/
+    footer .footer_input input[type="email"] {
+        width: 190px;
+    }
+
+    /*footer end*/
+}
+
+@media (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        outline: none;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: none!important;
+    }
+}

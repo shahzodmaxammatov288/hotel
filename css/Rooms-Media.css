@@ -1,0 +1,245 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    header .Menu_Link{
+        margin-left: 10px;
+    }
+    header h4{
+        font-size: 24px;
+    }
+    header .Rooms_And_Content_title .header_title_top {
+        font-size: 90px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    header .Header_Carousel_Button {
+        width: 230px;
+        height: 65px;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    header .Header_Carousel_Button img {
+        margin-right: 15px;
+    }
+    header h5 {
+        font-size: 1.2rem;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .Content_Title {
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .My_Content .Rooms_text {
+        font-size: 14px;
+    }
+    .Rooms_Carousel img{
+        height: auto!important;
+    }
+    .Carousel_Title {
+        font-size: 25px;
+    }
+    .Rooms_View_Box .Header_Carousel_Button {
+        width: 163px;
+        height: 54px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+    footer ul {
+        margin-top: 30px;
+    }
+    /*footer end*/
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    header .Menu_Link{
+        margin-left: 10px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .Rooms_Carousel img{
+        height: auto!important;
+    }
+    .Content_Title {
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .My_Content .Rooms_text {
+        font-size: 14px;
+    }
+    .Carousel_Title {
+        font-size: 25px;
+    }
+    .Rooms_View_Box .Header_Carousel_Button {
+        width: 163px;
+        height: 54px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+    footer .Rooms_text{
+        max-width: 100%;
+    }
+    /*footer end*/
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    header .Menu_Link{
+        margin-left: 10px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .Rooms_Carousel img{
+        height: auto!important;
+    }
+    .View_Rooms_Details_Text {
+        font-size: 14px;
+    }
+    .Rooms_View_Box .Header_Carousel_Button {
+        width: 163px;
+        height: 54px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+    footer ul {
+        margin-top: 20px;
+        padding-left: 0rem!important;
+    }
+    footer .Rooms_text {
+        max-width: 450px;
+    }
+    /*footer end*/
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    /*header begin*/
+    header{
+        height: auto;
+    }
+    /*header end*/
+
+    /*content begin*/
+
+    /*content end*/
+
+    /*footer begin*/
+    footer .footer_email_text_block{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    /*footer end*/
+}
+/*Extra Large*/
+@media  (min-width: 1200px){
+
+}
+
+/*Qo'shimcha media*/
+
+@media screen and (max-width:320px){
+    /*header begin*/
+    header .Rooms_And_Content_title .header_title_top {
+        font-size: 85px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .View_Rooms_Details_Text {
+        font-size: 14px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+
+    /*footer end*/
+}
+
+@media screen and (max-width:280px){
+    /*header begin*/
+    header .col-12:first-child{
+        padding: 0px!important;
+    }
+    header h4{
+        font-size: 15px;
+    }
+    header .Rooms_And_Content_title .header_title_bottom {
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+    header .Rooms_And_Content_title .header_title_top {
+        font-size: 50px;
+    }
+    header p {
+        font-size: 10px;
+    }
+    header .Header_Carousel_Button {
+        width: 200px;
+        height: 60px;
+    }
+    /*header end*/
+
+    /*content begin*/
+    .Carousel_Title {
+        font-size: 20px;
+    }
+    .Content_Title {
+        font-size: 20px;
+    }
+    .My_Content .Rooms_text {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .View_Rooms_Details_Text {
+        font-size: 11px;
+    }
+    /*content end*/
+
+    /*footer begin*/
+    footer .footer_input input[type="email"] {
+        width: 190px;
+    }
+    /*footer end*/
+}
+
+@media screen and (max-width:550px) and (min-width: 530px){
+    /*header begin*/
+
+    /*header end*/
+
+    /*content begin*/
+
+    /*content end*/
+
+    /*footer begin*/
+
+    /*footer end*/
+}
